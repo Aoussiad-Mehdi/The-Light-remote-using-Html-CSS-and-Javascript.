@@ -28,8 +28,6 @@ h1{
     font-family: "Radens",sans-serif;
     font-weight: 800;
     font-size: 54px;
-
-
 }
 img{
     width: 220px;
@@ -56,6 +54,7 @@ button:hover{
     background: transparent;
     border: 1px solid #ec5252;
 }
+/* the paragraph that shows the time */
 p{
     color: white;
     padding-top: 10px;
