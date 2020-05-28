@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="container">
+        <section>
+            <h1>The light remote</h1>
+            <img id="myimage" src="off.gif" alt="lightoff">
+
+        <div class="buttons">
+            <button class="off-btn" onclick="document.getElementById('myimage').src='off.gif' ">Turn it off</button>
+            <button class="on-btn" onclick="document.getElementById('myimage').src='on.gif'">Turn it on</button>
+        </div>
+        <p id="demo"></p>
+        <button onclick="document.getElementById('demo').innerHTML = Date();">Show time</button>
+        </section>
+    </div>
+</body>
+</html>
